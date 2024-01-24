@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #222; */
+    background-image: url(./images/bg2.jpg);
+
+}
+
+.heading{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.card{
+    width: 90%;
+    max-width: 450px;
+    /* background: linear-gradient(135deg,#516963,#797590); */
+    /* background-image: url(./images/bg 1.jpg); */
+    color: #fff;
+    margin: -16px auto 0;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 10px 15px;
+    height: 50px;
+    border-radius: 32px;
+    flex: 1;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+}
+
+
+.search button img{
+    width: 18px;
+
+}
+
+.weather-icon{
+    width: 150px;
+    margin-top: 28px;
+}
+
+.weather h1{
+font-size: 70px;
+font-weight: bold;
+}
+.weather h2{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: -9px;
+    }
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 46px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 38px;
+    margin-right:  11px;
+}
+
+.humidity, .wind{
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+.weather{
+    display: none;
+    
+    
+}
+
+.error{
+    font-size: 14px;
+    text-align: left;
+    margin-left: 9px;
+    margin-top: 10px;
+    display: none;
+}
+
+.empty{
+    font-size: 14px;
+    text-align: left;
+    margin-left: 9px;
+    margin-top: 10px;
+    display: none;
+}
+
+
